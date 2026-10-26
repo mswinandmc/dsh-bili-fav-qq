@@ -20,6 +20,9 @@ dsh plugin add https://github.com/mswinandmc/dsh-bili-fav-qq
 
 ## 配置
 
+也可以从 npm 测试通道安装：`npm install dsh-bili-fav-qq@next`（不会动 `latest`）。
+
+
 | 字段 | 说明 |
 |---|---|
 | AppID | QQ 开放平台机器人的 AppID |
