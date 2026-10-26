@@ -16,7 +16,7 @@ dsh plugin add https://github.com/mswinandmc/dsh-bili-fav-qq
 # 或本地目录：dsh plugin add /path/to/dsh-bili-fav-qq
 ```
 
-安装并启用后，核心设置页「投递方式 → 只第三方渠道 / 都要」里会出现 **QQ Bot（官方 API）**。
+安装并启用后，核心设置页「投递方式 → 只 QQ / 都要」里会出现 **QQ Bot（官方 API）**。
 
 ## 配置
 
@@ -65,7 +65,7 @@ POST https://api.bot.qq.com/v2/users/{user_openid}/messages
 
 参考：[获取访问凭证](https://bot.q.qq.com/wiki/develop/api-v2/dev-prepare/access-token.html)、[发送群聊消息](https://bot.q.qq.com/wiki/develop/api-v2/autogen/api/v2_groups_group_openid_messages.post.html)、[发送单聊消息](https://bot.q.qq.com/wiki/develop/api-v2/autogen/api/v2_users_user_openid_messages.post.html)。
 
-## 第三方渠道
+## 渠道 API
 
 本包仍是 `biliFavChannels` 渠道 API 的参考实现；渠道可以动态更新下拉：
 
